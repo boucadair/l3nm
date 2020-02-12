@@ -231,7 +231,9 @@
       approach, taking as a starting points the YANG module described in <xref
       target="RFC8299"/>. Nevertheless, this module is not defined as an
       augment to L3SM because a specific structure is required to meet
-      network-oriented L3 needs.</t>
+      network-oriented L3 needs.  Likewise, some of the information captured 
+      and exposed using L3NM can fed the service layer (e.g., capabilities) 
+      to derive L3SM and drive VPN service order handling. </t>
 
       <t>Some of the information captured in the L3SM can be passed by the
       Orchestrator in the L3NM (e.g., customer) or be used to fed some of the
